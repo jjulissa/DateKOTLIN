@@ -1,0 +1,10 @@
+<resources>
+<!-- Hemos definido un estilo que su padre,
+o lo que es lo mismo, extiendo de
+android:Theme.Material.Light.Dialog, -->
+    <style name="DatePickerTheme" parent="android:Theme.Material.Light.Dialog" >
+<!-- Sobre escribir ese theme modificando la propiedad que queramos,
+ que en este caso sería colorAccent.  -->
+        <item name="android:colorAccent">#FFA726</item>
+    </style>
+</resources>
